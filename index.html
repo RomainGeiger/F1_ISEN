@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F1 2026 | Portail Expert</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="hub-body">
+  <div id="loading">
+    <div class="loading-logo">F1 <span>2026</span></div>
+    <div class="loading-stack">
+      <div class="loading-bar-track"><div class="loading-bar" id="progress-bar"></div></div>
+      <div class="loading-text" id="loading-text">Chargement du modele...</div>
+    </div>
+  </div>
+
+  <div id="canvas-container"></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Accueil F1 2026">
+      <span class="logo-stripe"></span>
+      FORMULA <span>ONE</span>
+    </a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a href="index.html" aria-current="page">Hub</a>
+      <a href="pages/histoire.html">Histoire</a>
+      <a href="pages/ecuries.html">Ecuries</a>
+      <a href="pages/evolutions.html">Evolutions</a>
+      <a href="pages/circuits.html">Circuits</a>
+      <a href="pages/crashs.html">Securite</a>
+      <a href="pages/amateur.html">Parcours pilote</a>
+    </nav>
+  </header>
+
+  <div class="side-label side-label-left">Rotation libre du modele</div>
+  <div class="side-label side-label-right">Cliquez sur la voiture pour analyser</div>
+
+  <aside class="hub-panel">
+    <p class="eyebrow">Portail Expert 2026</p>
+    <h1>L'architecture complete de la Formule 1 nouvelle generation.</h1>
+    <p class="lead">
+      Explorez la monoplace 3D, puis plongez dans les reglements 2026, l'histoire technique,
+      la grille des ecuries, les circuits iconiques, les systemes de securite et le parcours
+      de formation des pilotes jusqu'a la Super Licence.
+    </p>
+    <div class="stats-grid compact-grid">
+      <article class="stat-card">
+        <span class="stat-label">Puissance cible</span>
+        <strong class="stat-value">1000+ ch</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">Part electrique</span>
+        <strong class="stat-value accent">50 %</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">Reglement phare</span>
+        <strong class="stat-value">Aero active</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">Portes d'entree</span>
+        <strong class="stat-value">7 sections</strong>
+      </article>
+    </div>
+    <div class="hub-links">
+      <a class="button-primary" href="pages/evolutions.html">Entrer dans le dossier technique</a>
+      <a class="button-secondary" href="pages/histoire.html">Remonter jusqu'en 1950</a>
+    </div>
+  </aside>
+
+  <div class="hotspot" id="hotspot">
+    <div class="hotspot-dot"></div>
+    <div class="hotspot-label" id="hotspot-label">-</div>
+  </div>
+
+  <div id="cursor-hint">
+    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+      <circle cx="30" cy="30" r="28" stroke="rgba(232,0,13,0.6)" stroke-width="1" stroke-dasharray="4 3"/>
+    </svg>
+  </div>
+
+  <footer class="hub-footer">
+    <div class="footer-hint">Drag pour pivoter | Scroll pour zoomer | Clic pour ouvrir le dossier associe</div>
+    <div class="season-badge">2026</div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="main.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
