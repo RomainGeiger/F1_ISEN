@@ -6,15 +6,17 @@ Ce projet est un portail web immersif consacre a la Formule 1 version 2026. Il c
 
 L'objectif est de proposer un site a la fois visuel, pedagogique et technique, avec une direction artistique sombre inspiree de l'univers automobile et de l'ingenierie de pointe.
 
+L'intelligence artificielle a egalement ete utilisee comme appui pour verifier et optimiser le code afin d'eviter certaines coquilles, ainsi que pour faciliter la gestion de la partie 3D de la monoplace de F1.
+
 ## Fonctionnalites principales
 
-- Hub d'accueil avec modele 3D interactif de F1 2026. (Nous avons été aidé par l'ia afin de faire fonctionner le modèle 3D de la F1)
+- Hub d'accueil avec modele 3D interactif de F1 2026.
 - Navigation multi-pages vers les differents dossiers du site.
 - Redirection contextuelle depuis les zones detectees sur la monoplace 3D.
-- Page historique retraçant l'evolution de la Formule 1 de 1950 a 2026.
+- Page historique retracant l'evolution de la Formule 1 de 1950 a 2026.
 - Page consacree aux ecuries et aux projets majeurs de la grille 2026.
 - Page technique sur le reglement 2026 et les principales innovations.
-- Page d'analyse de circuits emblématiques avec donnees techniques.
+- Page d'analyse de circuits emblematiques avec donnees techniques.
 - Page dediee a la securite avec integration de videos de crashs analyses.
 - Page presentant le parcours de formation du karting a la Super Licence.
 - Feuille de style partagee entre toutes les pages pour garantir une identite visuelle coherente.
