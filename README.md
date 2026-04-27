@@ -1,4 +1,4 @@
-# F1 2026 - Portail Expert
+# F1 2026
 
 ## Description du projet
 
