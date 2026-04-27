@@ -8,7 +8,7 @@ L'objectif est de proposer un site a la fois visuel, pedagogique et technique, a
 
 ## Fonctionnalites principales
 
-- Hub d'accueil avec modele 3D interactif de F1 2026.
+- Hub d'accueil avec modele 3D interactif de F1 2026. (Nous avons été aidé par l'ia afin de faire fonctionner le modèle 3D de la F1)
 - Navigation multi-pages vers les differents dossiers du site.
 - Redirection contextuelle depuis les zones detectees sur la monoplace 3D.
 - Page historique retraçant l'evolution de la Formule 1 de 1950 a 2026.
